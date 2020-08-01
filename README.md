@@ -45,5 +45,6 @@ MPIFFT_GFLOPS 就是多进程，大家一起跑FFT的峰值性能(Rmax)
 以后代码和文章放这里 https://github.com/chenlin0/HPCC
 (如果更新仓库太大了，再去gitee上开一个，下载速度快一点。)
 P.S. 如果老师上HPCC的优化课，大家应该会去github上搜一搜，会上知乎上搜吗?gitee呢? 希望能帮助到大家吧。我第一次课被K.O. 应该不会有比我惨的。。。(只打算写中文，英文资料那么丰富的说。。)
+知乎上的连载https://zhuanlan.zhihu.com/p/166047825
 ## 参考文献
 [1] enjoyhot.HPC性能测试. https://www.it610.com/article/1280305152368066560.htm
