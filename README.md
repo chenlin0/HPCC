@@ -19,11 +19,12 @@
 　　Benchmark 是指一组用来评估硬件或者软件相关性能的基准测试程序
 　　HPC Chanllenge Benchmark 由一组benchmark组成，共计7个，分别测试了系统7个方面的性能，这7个分别为：[1]
 
-![](benchmark002.png)
+![](https://github.com/chenlin0/HPCC/blob/master/benchmark002.png)
+
 HPCC测试包含7个部分
 HPL:并行LU分解求解线性方程组
 DGEMM:稠密矩阵乘稠密矩阵
-STREAM:blas Level1 $a=\beta b+\alpha c$
+STREAM:blas Level1 向量加法数乘 $a=\beta b+\alpha c$
 PTRANS: 稠密矩阵并行转置
 RandomAccess:随机更新数组中的元素
 FFT:并行和串行的快速傅里叶变换
@@ -44,5 +45,6 @@ MPIFFT_GFLOPS 就是多进程，大家一起跑FFT的峰值性能(Rmax)
 以后代码和文章放这里 https://github.com/chenlin0/HPCC
 (如果更新仓库太大了，再去gitee上开一个，下载速度快一点。)
 P.S. 如果老师上HPCC的优化课，大家应该会去github上搜一搜，会上知乎上搜吗?gitee呢? 希望能帮助到大家吧。我第一次课被K.O. 应该不会有比我惨的。。。(只打算写中文，英文资料那么丰富的说。。)
+知乎上的连载https://zhuanlan.zhihu.com/p/166047825
 ## 参考文献
 [1] enjoyhot.HPC性能测试. https://www.it610.com/article/1280305152368066560.htm
